@@ -12,4 +12,8 @@ public:
     bool Update();
 private:
     Core *core;
+    Scene *mainScene;
+    ScenePrimitive *ground;
+    ScenePrimitive *box;
+    SceneMesh *washer;
 };

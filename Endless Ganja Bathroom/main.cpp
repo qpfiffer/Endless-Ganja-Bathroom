@@ -19,5 +19,6 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
     } while(game->Update());
 
     delete view;
+    delete game;
     return 0;
 }
